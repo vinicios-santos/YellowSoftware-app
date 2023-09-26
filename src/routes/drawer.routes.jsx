@@ -26,7 +26,7 @@ export default function DrawerRoutes() {
             drawerInactiveTintColor: '#fff',
         }}>
             <Drawer.Screen name='Teste' component={Teste} />
-            <Drawer.Screen name='Cardápio' component={StackRoutes} initialParams={{ title: 'Cardápio' }} />
+            <Drawer.Screen name='Cardapio' component={StackRoutes} initialParams={{ title: 'Cardápio' }} />
 
             {/* <Drawer.Screen name='Cardápio offline' component={OfflineMenu} />
             <Drawer.Screen name='Cardápio' component={CategoryScreen} initialParams={{ title: 'Cardápio' }} /> */}
