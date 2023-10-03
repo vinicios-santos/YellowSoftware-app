@@ -11,7 +11,6 @@ const Drawer = createDrawerNavigator();
 export default function DrawerRoutes() {
     return (
         <Drawer.Navigator screenOptions={{
-            drawerType: 'permanent',
             drawerStyle: {
                 backgroundColor: '#212121',
                 width: 200,
